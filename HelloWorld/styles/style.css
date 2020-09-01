@@ -1,0 +1,73 @@
+.myh1 {
+color:green;
+border:10px solid black;
+margin: 10px auto;
+padding: 20px 0 20px 0;
+text-shadow: 3px 30px 2px red;
+}
+
+.myimage {
+    display: block;
+    margin: 20px 50px;
+}
+
+div.image {
+    display: block;
+    margin: 5px;
+    height: 140px;
+}
+
+ul.main {
+    color: rebeccapurple;
+    border: 2px solid #ccc;
+    padding: 1em;
+}
+
+ul.special {
+    color: black;
+    font-weight: bold;
+}
+
+
+#outer a {
+    background-color: red;
+}
+
+#outer #inner a {
+    background-color: blue;
+}
+
+#outer div ul li a {
+    color: yellow;
+}
+
+#outer div ul .nav a {
+    color: white;
+}
+
+div div li:nth-child(2) a:hover {
+    border: 10px solid black;
+}
+
+div li:nth-child(2) a:hover {
+    border: 10px dashed black;
+}
+
+a {
+    display: inline-block;
+    line-height: 40px;
+    font-size: 20px;
+    text-align: center;
+    text-decoration:none;
+    width: 200px;
+    margin-bottom: 10px;
+}
+
+ul {
+    padding: 0;
+}
+
+li {
+    list-style-type: none;
+}
+
